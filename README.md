@@ -26,7 +26,6 @@ To use this project, please copy your LINE Notify token first (obtain from [here
 There is **NO** installation required for this project. (Precisely, installations will be processed in Colab notebook).
 
 **Just open the Colab notebook** and run the code from top to bottom by clicking play buttons on the left side! 
-Or you can press Ctrl+F9 to do so after setting all parameters if you're not willing to find play buttons or click them one by one.
 
  ㅤ
 <p align="center">
@@ -38,7 +37,7 @@ Or you can press Ctrl+F9 to do so after setting all parameters if you're not wil
  ㅤ
  
 ## How to Use after Running the Code?
-##### :warning: Changes made toward any parameter IN a cell will not take effect without running the cell again, while those BELOW a cell will. :warning:
+##### :warning: Parameters IN a cell must be set before running the cell, whereas those BELOW a cell don't. :warning:
 
  ㅤ
  
