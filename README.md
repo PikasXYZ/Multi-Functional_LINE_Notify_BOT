@@ -25,7 +25,7 @@ To use this project, please copy your LINE Notify token first (obtain from [here
 
 There is **NO** installation required for this project. (Precisely, installations will be processed in Colab notebook).
 
-**Just open the Colab notebook** and run the code from top to bottom by clicking play buttons on the left side! 
+**Just open the Colab notebook** and run the code from top to bottom by clicking play buttons on the left side one by one! 
 
  ㅤ
 <p align="center">
