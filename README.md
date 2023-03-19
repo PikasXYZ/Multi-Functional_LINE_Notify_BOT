@@ -6,7 +6,7 @@ This is a multi-functional messaging program that connects to the LINE Notify AP
 ### :star: If this project is helpful to you, please help star this repo. Thanks! :hugs:
  ㅤ
 ## Preparison
-To use this project, please copy your LINE Notify token first. Otherwise, you need a Google account for accessing to your Google Drive, along with one (or more) "name+ (TAB)+LINE Notify token" stored row by row in a txt named `LineNotifyTokens.txt` in `/content/drive/MyDrive` of your Google Drive.
+To use this project, please copy your LINE Notify token first (obtain from [here](https://notify-bot.line.me/my/)). Otherwise, you need a Google account for accessing to your Google Drive, along with one (or more) "name+ (TAB)+LINE Notify token" stored row by row in a txt named `LineNotifyTokens.txt` in `/content/drive/MyDrive` of your Google Drive.
 
  ㅤ
 <p align="center">
@@ -38,9 +38,37 @@ Or you can press Ctrl+F9 to do so after setting all parameters if you're not wil
  ㅤ
  
 ## How to Use after Running the Code?
-1. Choose the token number you want to send message with in cell `Tokens`, where all token numbers will be listed below.
-2. Set Message to Send 
+##### :warning: Changes made toward any parameter IN a cell will not take effect without running the cell again, while those BELOW a cell will. :warning:
 
+ ㅤ
+ 
+1. Choose the token number you want to send message with in cell `Tokens`, where all token numbers will be listed below.
+
+ ㅤ
+ 
+2. Set message to send in cell `Set Message to Send`. Besides, you can set sticker to send by ticking `add_sticker` and fill in `sticker_package_id` & `sticker_id` if you wanna send a sticker with your message.
+
+ ㅤ ㅤ:bell: You can find sticker package id & sticker id in [this website](https://developers.line.biz/en/docs/messaging-api/sticker-list/#sticker-definitions). 
+
+ ㅤ
+ 
+3. Choose the way ("Upload"/"URL"/"Google Drive Path") to provide image in cell `Set Image to Send`:
+   - If you choose **URL**, please provide image URL in `image_url`
+   - If you choose **Google Drive Path**, please provide image Google Drive Path in `Google_Drive_Path`
+   - If you choose **Upload**, please upload image(s) below the cell by clicking upload button. (This is the only way to send multiple images.)
+
+ ㅤ ㅤ:bell: You can skip this step if you're not going to send any image.
+
+ ㅤ
+ 
+4. Set when to send after ticking `send_at_the_appointed_time` in cell `Set When to Send` if you don't wanna send message immediately.
+
+ ㅤ ㅤ:bell: You can skip this step if you're not going to send message immediately.
+ 
+ ㅤ
+
+5. Click button 'Send!' below cell `Send Message!` to send message & image(s)!
+ 
  ㅤ
 ## FAQ
 :question: Cannot find `LineNotifyTokens.txt` in connected Google Drive since it doesn't exsist.
@@ -69,3 +97,4 @@ Or you can press Ctrl+F9 to do so after setting all parameters if you're not wil
 ## Reference
 
 1. [List of available stickers | LINE Developers](https://developers.line.biz/en/docs/messaging-api/sticker-list/#sticker-definitions)
+2. [LINE Notify](https://notify-bot.line.me/my/)
