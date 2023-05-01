@@ -18,7 +18,7 @@ To use this project, please copy your LINE Notify token first (obtain from [here
 
  ㅤ
  
-:bell: The left side of each row in `LineNotifyTokens.txt` is the name of token named by your own and the right one is token, which are seperated by TAB(\t).
+:bell: The left side of each row in `LineNotifyTokens.txt` is the name of token named by your own and the right one is token, which are separated by TAB(\t).
 
  ㅤ
 ## Installation
@@ -36,12 +36,12 @@ There is **NO** installation required for this project. (Precisely, installation
 </p>
  ㅤ
  
-## How to Use after Running the Code?
+## How to Use After Running the Code?
 ##### :warning: Parameters IN a cell must be set before running the cell, whereas those BELOW a cell don't. :warning:
 
  ㅤ
  
-1. Choose the token number you want to send message with in cell `Tokens`, where all token numbers will be listed below.
+1. Choose the token number you want to send messages with in cell `Tokens`, where all token numbers will be listed below.
 
  ㅤ
  
