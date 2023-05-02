@@ -60,13 +60,13 @@ There is **NO** installation required for this project. (Precisely, installation
 
  ㅤ
  
-4. Set when to send after ticking `send_at_the_appointed_time` in cell `Set When to Send` if you don't wanna send message immediately.
+4. Set when to send after ticking `send_at_the_appointed_time` in cell `Set When to Send` if you don't wanna send the message immediately.
 
- ㅤ ㅤ:bell: You can skip this step if you're not going to send message immediately.
+ ㅤ ㅤ:bell: You can skip this step if you're not going to send the message immediately.
  
  ㅤ
 
-5. Click button 'Send!' below cell `Send Message!` to send message & image(s)!
+5. Click button `Send!` below cell `Send Message!` to send message & image(s)!
  
  ㅤ
 ## FAQ
